@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Hamed LAOUZ" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SMART IRRIGATION SYSTEM FOR GREENHOUSES</title>
+
+    <!-- Font Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!--script type="text/javascript" src="index1.js"></script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="fonts/material-icon/css/material-design-iconic-font.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Main css -->
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="cnt">
+        <h2>SMART IRRIGATION SYSTEM FOR GREENHOUSES</h2>
+        <form
+          method="POST"
+          id="signup-form"
+          class="signup-form"
+          action="index1.php"
+        >
+          <div class="d-flex justify-content-between bard">
+            <span class="title_text spd"><img src="1.PNG" /> Air Data</span
+            ><span class="sep"></span>
+            <span class="title_text els"><img src="2d.PNG" />Soil Data</span
+            ><span class="sep"></span>
+            <span class="title_text els"><img src="3d.PNG" />Results</span>
+          </div>
+          <fieldset>
+            <div class="fieldset-content">
+              <div class="form-group">
+                <label for="temp" id="ii" class="form-label"
+                  >Air Temperature</label
+                >
+                <input
+                  type="text"
+                  class=" "
+                  name="temp"
+                  id="temp"
+                  placeholder="°C"
+                />
+                <i>Not valid</i>
+              </div>
+              <div class="form-group">
+                <label for="hum" class="form-label">Air Humidity</label>
+                <input type="text" name="hum" id="hum" placeholder="%" />
+                <i>Not valid</i>
+              </div>
+              <div class="form-group">
+                <label for="def" class="form-label">Humedity Deficit</label>
+                <input type="text" name="def" id="def" placeholder="g/m2" />
+                <i>Not valid</i>
+              </div>
+              <div class="form-group">
+                <label for="co" class="form-label">CO2 emission</label>
+                <input type="text" name="co" id="co" placeholder="ppm" />
+                <i>Not valid</i>
+              </div>
+              <div class="form-group">
+                <label for="pipe" class="form-label">Pipe temperature</label>
+                <input type="text" name="pipe" id="pipe" placeholder="°C" />
+                <i>Not valid</i>
+              </div>
+              <div class="form-group">
+                <label for="vent" class="form-label">Ventilation Wind</label>
+                <input type="text" name="vent" id="vent" placeholder="%" />
+                <i>Not valid</i>
+              </div>
+              <div class="d-flex justify-content-between btm">
+                <span>Step 1 of 2</span>
+                <input class="nex" type="submit" value="Next" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

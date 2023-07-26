@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Hamed LAOUZ" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SMART IRRIGATION SYSTEM FOR GREENHOUSES</title>
+
+    <!-- Font Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="fonts/material-icon/css/material-design-iconic-font.min.css"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <!-- Main css -->
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="cnt">
+        <h2>SMART IRRIGATION SYSTEM FOR GREENHOUSES</h2>
+        <form
+          method="POST"
+          id="signup-form"
+          class="signup-form"
+          action="index2.php"
+        >
+          <div class="d-flex justify-content-between bard">
+            <span class="title_text done"><img src="done.PNG" /> Air Data</span
+            ><span class="sep"></span>
+            <span class="title_text spd"><img src="2.PNG" />Soil Data</span
+            ><span class="sep"></span>
+            <span class="title_text els"><img src="3d.PNG" />Results</span>
+          </div>
+          <fieldset>
+            <div class="fieldset-content">
+              <div class="form-group">
+                <label for="temp" class="form-label">Soil PH</label>
+                <input
+                  type="text"
+                  class=" "
+                  name="ph"
+                  id="temp"
+                  placeholder="°C"
+                />
+                <i>Not valid</i>
+              </div>
+              <div class="form-group">
+                <label for="hum" class="form-label">Soil EC</label>
+                <input type="text" name="ec" id="hum" placeholder="%" />
+                <i>Not valid</i>
+              </div>
+              <div class="form-group">
+                <label for="def" class="form-label">Soil Temperature</label>
+                <input type="text" name="temp" id="def" placeholder="g/m2" />
+                <i>Not valid</i>
+              </div>
+              <div class="d-flex justify-content-between btm">
+                <a href="index.html" class="prev">Previous</a>
+                <span>Step 2 of 2</span>
+                <input class="nex" type="submit" value="Submit" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
